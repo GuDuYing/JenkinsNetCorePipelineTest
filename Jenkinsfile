@@ -11,11 +11,9 @@ pipeline {
         }
     stage('Publish') {
             steps{
-              bat  '''
-               dotnet build ./WebApiTest/WebApiTest.csproj'
-               dotnet publish ./WebApiTest/WebApiTest.csproj -o "$(pwd)/publish" --framework netcoreapp2.2
-               '''
-               echo 'Core Delivery Service Build & Publish Done'
+                sh 'dotnet build ./WebApiTest/WebApiTest.csproj'
+                sh 'dotnet publish ./WebApiTest/WebApiTest.csproj -o "$(pwd)/publish" --framework netcoreapp2.2'
+                echo 'publish done'
             }
         }
         
