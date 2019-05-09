@@ -1,0 +1,14 @@
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\bin\Debug\netcoreapp2.2\WebApiTest.deps.json
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\bin\Debug\netcoreapp2.2\WebApiTest.runtimeconfig.json
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\bin\Debug\netcoreapp2.2\WebApiTest.runtimeconfig.dev.json
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\bin\Debug\netcoreapp2.2\WebApiTest.dll
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\bin\Debug\netcoreapp2.2\WebApiTest.pdb
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.csprojAssemblyReference.cache
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.csproj.CoreCompileInputs.cache
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.RazorAssemblyInfo.cache
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.RazorAssemblyInfo.cs
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.AssemblyInfoInputs.cache
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.AssemblyInfo.cs
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.RazorTargetAssemblyInfo.cache
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.dll
+G:\LearningCode\NET\JenkinsNetCorePipelineTest\WebApiTest\obj\Debug\netcoreapp2.2\WebApiTest.pdb
