@@ -29,7 +29,7 @@ pipeline {
             remoteDirectory: 'WebApiTest/', 
             remoteDirectorySDF: false, 
             removePrefix: '$(pwd)/publish/', 
-            sourceFiles: '$(pwd)/publish/**')], 
+            sourceFiles: '$publish/**')], 
             usePromotionTimestamp: false, 
             useWorkspaceInPromotion: false, 
             verbose: false)])
