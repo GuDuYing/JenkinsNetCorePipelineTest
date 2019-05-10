@@ -29,7 +29,7 @@ pipeline {
             remoteDirectorySDF: false, 
             removePrefix: 'publish/', 
             sourceFiles: 'publish/**',
-            execCommand: '''pwd;docker rmi WebApiService;'''
+            execCommand: '''pwd;docker rmi webapiservice;'''
             )], 
             usePromotionTimestamp: false, 
             useWorkspaceInPromotion: false, 
