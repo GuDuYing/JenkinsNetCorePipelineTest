@@ -27,7 +27,7 @@ pipeline {
             patternSeparator: '[, ]+', 
             remoteDirectory: 'WebApiTest/', 
             remoteDirectorySDF: false, 
-            removePrefix: '$publish/', 
+            removePrefix: 'publish/', 
             sourceFiles: 'publish/**')], 
             usePromotionTimestamp: false, 
             useWorkspaceInPromotion: false, 
