@@ -28,8 +28,9 @@ pipeline {
             remoteDirectory: 'WebApiTest/', 
             remoteDirectorySDF: false, 
             removePrefix: 'publish/', 
-            sourceFiles: 'publish/**')], 
-            execCommand: '''pwd;ls;docker ps;''',
+            sourceFiles: 'publish/**'),
+            execCommand: '''pwd;ls;docker ps;'''
+            ], 
             usePromotionTimestamp: false, 
             useWorkspaceInPromotion: false, 
             verbose: false,
