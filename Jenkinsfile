@@ -20,7 +20,6 @@ pipeline {
             steps{
             sshPublisher(publishers: [sshPublisherDesc(configName: 'Tencent2', 
             transfers: [sshTransfer(cleanRemote: false, excludes: '', 
-            execCommand: '''pwd''', 
             execTimeout: 120000, 
             flatten: false, 
             makeEmptyDirs: false, 
@@ -28,11 +27,13 @@ pipeline {
             patternSeparator: '[, ]+', 
             remoteDirectory: 'WebApiTest/', 
             remoteDirectorySDF: false, 
-            removePrefix: '$(pwd)/publish/', 
-            sourceFiles: '$publish/**')], 
+            removePrefix: '$publish/', 
+            sourceFiles: 'publish/**')], 
             usePromotionTimestamp: false, 
             useWorkspaceInPromotion: false, 
-            verbose: false)])
+            verbose: false,
+            execCommand: '''pwd''',
+            )])
             echo 'Deploy To Server Done'    
             }
         }
