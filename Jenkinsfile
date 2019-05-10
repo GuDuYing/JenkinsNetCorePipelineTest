@@ -29,7 +29,7 @@ pipeline {
             remoteDirectorySDF: false, 
             removePrefix: 'publish/', 
             sourceFiles: 'publish/**',
-            execCommand: '''pwd'''
+            execCommand: '''pwd;cat /root/jenkins/workspace/WebApiTest/appsettings.json'''
             )], 
             usePromotionTimestamp: false, 
             useWorkspaceInPromotion: false, 
