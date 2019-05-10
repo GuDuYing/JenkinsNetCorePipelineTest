@@ -21,6 +21,7 @@ pipeline {
             sshPublisher(publishers: [sshPublisherDesc(configName: 'Tencent2', 
             transfers: [sshTransfer(cleanRemote: false, excludes: '', 
             execTimeout: 120000, 
+            execCommand: '''pwd''',
             flatten: false, 
             makeEmptyDirs: false, 
             noDefaultExcludes: false, 
@@ -32,7 +33,6 @@ pipeline {
             usePromotionTimestamp: false, 
             useWorkspaceInPromotion: false, 
             verbose: false,
-            execCommand: '''pwd''',
             )])
             echo 'Deploy To Server Done'    
             }
